@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+  width: 100%;
+  height: 750px;
+  margin: auto;
+  background: 
+    url(bg-pattern-top.svg) left top no-repeat,
+    url(bg-pattern-bottom.svg) right bottom no-repeat;
+  background-size: 700px;
+  background-position: -10% -550%, 110% 600%;
+  background-color: #1aa1ad;
+    }
+    .box{
+        width: 350px;
+        height: 350px;
+        border-radius: 15px;
+        background-color: white;
+        position: relative;
+        top: 160px;
+        left: 580px;
+    }
+    .i1{
+        border-radius: 10px 10px 0 0;
+    }
+    .i2{
+        position: absolute;
+        left: 120px;
+        top: 80px;
+        border-radius: 50%;
+        border: 5px solid white;
+    }
+    h4{
+        position: relative;
+        top: 55px;
+        left: 125px;
+        font-family: ;
+    }
+    .p1{
+        position: relative;
+        top: 38px;
+        left: 230px;
+        color: gray;
+    }
+    .p2{
+        position: relative;
+        top: 45px;
+        left: 150px;
+        color: gray;
+    }
+    hr{
+    position: relative;
+    top: 70px;
+
+    }
+    .number{
+        position: relative;
+        top: 80px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .likes{
+        position: relative;
+        top: 80px;
+        display: flex;
+        justify-content: space-around;
+        font-size: small;
+        color: gray;
+    
+    }
+
+</style>
+<body>
+    <div class="container">
+        <div class="box">
+            <img class="i1" src="bg-pattern-card.svg" alt="">
+            <img class="i2" src="image-victor.jpg" alt="">
+            <div>
+            <h4>Victor Crest</h4>
+            <p class="p1">26</p>
+            <p class="p2">London</p>
+            </div>
+            <hr>
+            <div class="number">
+                <h3>80K</h3>
+                <h3>803K</h3>
+                <h3>1.4k</h3>
+            </div>
+            <div class="likes">
+                <p>Followers</p>
+                <p>Likes</p>
+                <p>Photos</p>
+            </div>
+                </div>
+    </div>
+</body>
+</html>
